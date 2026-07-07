@@ -3932,7 +3932,7 @@
       "height": 86.05078125,
       "angle": 0,
       "strokeColor": "#1e1e1e",
-      "backgroundColor": "transparent",
+      "backgroundColor": "#ffec99",
       "fillStyle": "solid",
       "strokeWidth": 2,
       "strokeStyle": "solid",
@@ -3945,8 +3945,8 @@
         "type": 3
       },
       "seed": 214797567,
-      "version": 203,
-      "versionNonce": 651057677,
+      "version": 204,
+      "versionNonce": 520309795,
       "isDeleted": false,
       "boundElements": [
         {
@@ -3986,7 +3986,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1783461119877,
+      "updated": 1783467230012,
       "link": null,
       "locked": false
     },
@@ -4491,8 +4491,8 @@
         "type": 3
       },
       "seed": 1351787057,
-      "version": 140,
-      "versionNonce": 2011362627,
+      "version": 142,
+      "versionNonce": 476539587,
       "isDeleted": false,
       "boundElements": [
         {
@@ -4500,7 +4500,7 @@
           "id": "8ZlO4LoPpYj6_fNBd11Tq"
         }
       ],
-      "updated": 1783462993968,
+      "updated": 1783467602592,
       "link": null,
       "locked": false
     },
@@ -4524,20 +4524,20 @@
       "index": "b0n",
       "roundness": null,
       "seed": 1061237777,
-      "version": 465,
-      "versionNonce": 1966132163,
+      "version": 514,
+      "versionNonce": 1138116387,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1783463307580,
+      "updated": 1783467602592,
       "link": null,
       "locked": false,
-      "text": "Non-functional Requirement\n1. Availability>> Consistency (any\nrestaurant/shop not listed in\nrecommendations immediately should not\nbe a deal breaker)\n2. Low latency <= 500ms\n3. Scalable: 1000s of users + 100s of\nshops per airport",
+      "text": "Non-functional Requirement\n1. Availability>> Consistency (any\nrestaurant/shop not listed in\nrecommendations immediately should not\nbe a deal breaker)\n2. Low latency <= 500ms\n3. Scalable: 100s of airpots * 100s of\noutlets * 1000s of travellers ",
       "fontSize": 20,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "middle",
       "containerId": "O0NuOGMuApWnANvOKhqPz",
-      "originalText": "Non-functional Requirement\n1. Availability>> Consistency (any restaurant/shop not listed in recommendations immediately should not be a deal breaker)\n2. Low latency <= 500ms\n3. Scalable: 1000s of users + 100s of shops per airport",
+      "originalText": "Non-functional Requirement\n1. Availability>> Consistency (any restaurant/shop not listed in recommendations immediately should not be a deal breaker)\n2. Low latency <= 500ms\n3. Scalable: 100s of airpots * 100s of outlets * 1000s of travellers ",
       "autoResize": true,
       "lineHeight": 1.25
     },
@@ -4659,7 +4659,7 @@
       "height": 85,
       "angle": 0,
       "strokeColor": "#1e1e1e",
-      "backgroundColor": "transparent",
+      "backgroundColor": "#ffec99",
       "fillStyle": "solid",
       "strokeWidth": 2,
       "strokeStyle": "solid",
@@ -4672,8 +4672,8 @@
         "type": 3
       },
       "seed": 786378705,
-      "version": 306,
-      "versionNonce": 400719139,
+      "version": 307,
+      "versionNonce": 1250282189,
       "isDeleted": false,
       "boundElements": [
         {
@@ -4697,7 +4697,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1783460553160,
+      "updated": 1783467225546,
       "link": null,
       "locked": false
     },
@@ -5565,20 +5565,20 @@
       "index": "b16",
       "roundness": null,
       "seed": 481333695,
-      "version": 144,
-      "versionNonce": 2031649507,
+      "version": 150,
+      "versionNonce": 628895395,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1783461334790,
+      "updated": 1783467985248,
       "link": null,
       "locked": false,
-      "text": "airport-shop\n1. AirportId\n2. Category\n3. StoreId\n4. Keywords\n5. Tag-embedding (Embedding)",
+      "text": "airport-outlet\n1. AirportId\n2. Category\n3. StoreId\n4. Keywords\n5. Tag-embedding (Embedding)",
       "fontSize": 20,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "airport-shop\n1. AirportId\n2. Category\n3. StoreId\n4. Keywords\n5. Tag-embedding (Embedding)",
+      "originalText": "airport-outlet\n1. AirportId\n2. Category\n3. StoreId\n4. Keywords\n5. Tag-embedding (Embedding)",
       "autoResize": true,
       "lineHeight": 1.25
     },
@@ -5655,8 +5655,8 @@
     {
       "id": "bKLeHvweQLW3HjZ3ianzi",
       "type": "image",
-      "x": 1227.0414627884084,
-      "y": 731.2351324450354,
+      "x": 1228.2872257705399,
+      "y": 674.2930861932017,
       "width": 70.43350559137406,
       "height": 44.02094099460878,
       "angle": 0,
@@ -5672,11 +5672,11 @@
       "index": "b19",
       "roundness": null,
       "seed": 2595807,
-      "version": 574,
-      "versionNonce": 249321613,
+      "version": 615,
+      "versionNonce": 715384685,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1783464761958,
+      "updated": 1783467959079,
       "link": null,
       "locked": false,
       "status": "saved",
@@ -6105,8 +6105,8 @@
     {
       "id": "7pYeZll-Vq7azVtYedfax",
       "type": "rectangle",
-      "x": 1197.2536432113425,
-      "y": 764.6740653350885,
+      "x": 1151.1817688093083,
+      "y": 718.8157503014202,
       "width": 413.2539435065517,
       "height": 197.12399233462702,
       "angle": 0,
@@ -6124,8 +6124,8 @@
         "type": 3
       },
       "seed": 1380110861,
-      "version": 418,
-      "versionNonce": 327089763,
+      "version": 587,
+      "versionNonce": 1802124899,
       "isDeleted": false,
       "boundElements": [
         {
@@ -6133,15 +6133,15 @@
           "id": "TQ61mcBDJVMN9eSkt2paE"
         }
       ],
-      "updated": 1783464743144,
+      "updated": 1783467961851,
       "link": null,
       "locked": false
     },
     {
       "id": "TQ61mcBDJVMN9eSkt2paE",
       "type": "text",
-      "x": 1202.2536432113425,
-      "y": 773.236061502402,
+      "x": 1156.1817688093083,
+      "y": 727.3777464687337,
       "width": 396.31951904296875,
       "height": 180,
       "angle": 0,
@@ -6157,11 +6157,11 @@
       "index": "b1JG",
       "roundness": null,
       "seed": 1131673475,
-      "version": 28,
-      "versionNonce": 1014446595,
+      "version": 197,
+      "versionNonce": 1962572291,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1783464743144,
+      "updated": 1783467961851,
       "link": null,
       "locked": false,
       "text": "Key:   rec:{userId}:{airport}\nValue: {\n         recommendationId,\n         airport,\n         generatedAt,\n         boardingTime,\n         stores: [ {storeId, score, saleFlag, ...}, ... ]\n       }\nTTL:   min(6hr, time-to-boarding)",
@@ -6828,7 +6828,7 @@
       "height": 74.83326242996088,
       "angle": 0,
       "strokeColor": "#1e1e1e",
-      "backgroundColor": "#ffec99",
+      "backgroundColor": "transparent",
       "fillStyle": "solid",
       "strokeWidth": 2,
       "strokeStyle": "solid",
@@ -6841,8 +6841,8 @@
         "type": 3
       },
       "seed": 2086652547,
-      "version": 106,
-      "versionNonce": 1599061155,
+      "version": 107,
+      "versionNonce": 1472388963,
       "isDeleted": false,
       "boundElements": [
         {
@@ -6854,7 +6854,7 @@
           "id": "5mNrub6yNexK0rCQPzWeS"
         }
       ],
-      "updated": 1783461436177,
+      "updated": 1783467238828,
       "link": null,
       "locked": false
     },
