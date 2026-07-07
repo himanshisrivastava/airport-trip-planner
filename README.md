@@ -34,6 +34,8 @@ The design rests on a few explicit assumptions. Each is a simplifying choice tha
 
 **A 6-hour recommendation window.** The hourly batch generates recommendations for users boarding within the next 6 hours, and 6 hours is the upper bound on cache TTL. The reasoning: it is long enough to cover a realistic pre-flight arrival window (most travellers are airside somewhere between roughly 1 and 3 hours before departure, with international and buffer-conscious travellers arriving earlier), so a user who lands airside early still has recommendations ready; but it is short enough that the batch isn't precomputing for flights so far out that gate assignments, sales, or the traveller's own plans are likely to change before they matter. The actual TTL is `min(6 hr, time-to-boarding)` so the window only ever shrinks toward boarding, never serving a list that outlives the flight. *If this changed*, the 6-hour figure is a single tunable constant — it can be shortened to reduce wasted precompute or lengthened to widen coverage, without structural changes.
 
+**User preference embeddings are produced by the user-preference service.** When a user sets or updates their preferences, that service embeds them — using the same versioned model the keywords-embedding-service uses for outlets, so user and outlet vectors share one space — and stores the vector on the user record. The recommendation service's retrieve step reads this precomputed vector; it does not embed at request time, keeping embedding off the latency-sensitive path. 
+
 ---
 
 
@@ -81,8 +83,6 @@ Separately and asynchronously, a `keywords-embedding-service` runs on its own ho
 **API Gateway (auth + load balancing) fronting a `user-auth-service`.** Standard edge concerns — authentication and load balancing — are handled at the gateway so downstream services stay focused on domain logic.
 
 **Python recommendation and embedding services.** The recommendation and embedding logic sits naturally in the Python ML/embedding ecosystem.
-
-**Two-schedule split (retrieve offline, rerank at request time).** Embedding generation and candidate precompute run hourly; the volatile signals — flight window and live sales — are applied at request time on a small candidate set. This keeps the expensive work off the read path while ensuring delays and flash sales are reflected immediately rather than at the next hourly refresh.
 
 ---
 
